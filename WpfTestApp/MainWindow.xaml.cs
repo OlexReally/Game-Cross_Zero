@@ -50,6 +50,7 @@ namespace WpfTestApp
         {
             GetPictures();
             Image1.Source = new BitmapImage(new Uri(@"D:\Pictures\" + new Random().Next(1,4)+ ".jpg"));
+            //comment
         }
 
         private void GetPictures()
