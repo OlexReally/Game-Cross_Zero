@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfTestApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTestApp"
+        mc:Ignorable="d"
+        Title="New Application" Height="350" Width="500">
+    <Grid x:Name="Grid1">
+        <Border BorderBrush="Black" Name="Border1" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="40,180,0,0" VerticalAlignment="Top" Width="100" Background="White"/>
+        <Button Content="GenerateColor" Name="Button1" HorizontalAlignment="Left" Margin="40,124,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="Button1_Click"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="355,180,0,0" VerticalAlignment="Top" Width="100" Name="Image1" />
+        <Button x:Name="Button2" Content="GeneratePicture" HorizontalAlignment="Left" Margin="355,124,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="Button2Click"/>
+        <Button x:Name="Button3" Content="GenerateAll" HorizontalAlignment="Left" Margin="200,62,0,0" VerticalAlignment="Top" Width="100" Click="Button3Click" Height="30"/>
+    </Grid>
+
+</Window>
