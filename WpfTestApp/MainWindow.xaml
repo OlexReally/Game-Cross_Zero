@@ -5,13 +5,67 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfTestApp"
         mc:Ignorable="d"
-        Title="New Application" Height="350" Width="500">
-    <Grid x:Name="Grid1">
-        <Border BorderBrush="Black" Name="Border1" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="40,180,0,0" VerticalAlignment="Top" Width="100" Background="White"/>
-        <Button Content="GenerateColor" Name="Button1" HorizontalAlignment="Left" Margin="40,124,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="Button1_Click"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="355,180,0,0" VerticalAlignment="Top" Width="100" Name="Image1" />
-        <Button x:Name="Button2" Content="GeneratePicture" HorizontalAlignment="Left" Margin="355,124,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="Button2Click"/>
-        <Button x:Name="Button3" Content="GenerateAll" HorizontalAlignment="Left" Margin="200,62,0,0" VerticalAlignment="Top" Width="100" Click="Button3Click" Height="30"/>
+        Title="Game" Height="400" Width="500">
+    <Grid x:Name="Grid1" >
+        <!--        xxx
+                    ___
+                    ___     -->
+
+        <Image HorizontalAlignment="Left" Height="65" Margin="45,45,0,0" VerticalAlignment="Top" Width="65"/>
+        <Border x:Name="Image1" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="67" Margin="44,44,0,0" VerticalAlignment="Top" Width="67">
+            <Button x:Name="Button1" Content="Choose"/>
+        </Border>
+
+        <Image HorizontalAlignment="Left" Height="65" Margin="150,45,0,0" VerticalAlignment="Top" Width="65" />
+        <Border x:Name="Image2" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="67" Margin="149,44,0,0" VerticalAlignment="Top" Width="67">
+            <Button x:Name="Button2" Content="Choose"/>
+        </Border>
+
+        <Image HorizontalAlignment="Left" Height="65" Margin="255,45,0,0" VerticalAlignment="Top" Width="65" />
+        <Border x:Name="Image3" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="67" Margin="254,44,0,0" VerticalAlignment="Top" Width="67">
+            <Button x:Name="Button3" Content="Choose"/>
+        </Border>
+
+        <!--    ___
+                xxx
+                ___
+        -->
+
+        <Image HorizontalAlignment="Left" Height="65" Margin="45,150,0,0" VerticalAlignment="Top" Width="65" />
+        <Border x:Name="Image4" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="67" Margin="44,149,0,0" VerticalAlignment="Top" Width="67">
+            <Button x:Name="Button4" Content="Choose"/>
+        </Border>
+
+        <Image HorizontalAlignment="Left" Height="65" Margin="150,150,0,0" VerticalAlignment="Top" Width="65" />
+        <Border x:Name="Image5" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="67" Margin="149,149,0,0" VerticalAlignment="Top" Width="67">
+            <Button x:Name="Button5" Content="Choose"/>
+        </Border>
+
+        <Image HorizontalAlignment="Left" Height="65" Margin="255,150,0,0" VerticalAlignment="Top" Width="65" />
+        <Border x:Name="Image6" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="67" Margin="254,149,0,0" VerticalAlignment="Top" Width="67">
+            <Button x:Name="Button6" Content="Choose"/>
+        </Border>
+
+        <!--    ___
+                ___
+                xxx
+        -->
+
+        <Image HorizontalAlignment="Left" Height="65" Margin="45,255,0,0" VerticalAlignment="Top" Width="65" />
+        <Border x:Name="Image7" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="67" Margin="44,254,0,0" VerticalAlignment="Top" Width="67">
+            <Button x:Name="Button7" Content="Choose"/>
+        </Border>
+
+        <Image HorizontalAlignment="Left" Height="65" Margin="150,255,0,0" VerticalAlignment="Top" Width="65" />
+        <Border x:Name="Image8" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="67" Margin="149,254,0,0" VerticalAlignment="Top" Width="67">
+            <Button x:Name="Button8" Content="Choose"/>
+        </Border>
+
+        <Image HorizontalAlignment="Left" Height="65" Margin="255,255,0,0" VerticalAlignment="Top" Width="65" />
+        <Border x:Name="Image9" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="67" Margin="254,254,0,0" VerticalAlignment="Top" Width="67">
+            <Button x:Name="Button9" Content="Choose"/>
+        </Border>
+
     </Grid>
 
 </Window>
