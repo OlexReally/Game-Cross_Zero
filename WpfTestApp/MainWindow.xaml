@@ -13,17 +13,17 @@
 
         <Image HorizontalAlignment="Left" Height="65" Margin="45,45,0,0" VerticalAlignment="Top" Width="65"/>
         <Border x:Name="Image1" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="67" Margin="44,44,0,0" VerticalAlignment="Top" Width="67">
-            <Button x:Name="Button1" Content="Choose"/>
+            <Button x:Name="Button1" Content="Choose" Click="button_Click" Tag="1"/>
         </Border>
 
         <Image HorizontalAlignment="Left" Height="65" Margin="150,45,0,0" VerticalAlignment="Top" Width="65" />
         <Border x:Name="Image2" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="67" Margin="149,44,0,0" VerticalAlignment="Top" Width="67">
-            <Button x:Name="Button2" Content="Choose"/>
+            <Button x:Name="Button2" Content="Choose" Click="button_Click" Tag="2"/>
         </Border>
 
         <Image HorizontalAlignment="Left" Height="65" Margin="255,45,0,0" VerticalAlignment="Top" Width="65" />
         <Border x:Name="Image3" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="67" Margin="254,44,0,0" VerticalAlignment="Top" Width="67">
-            <Button x:Name="Button3" Content="Choose"/>
+            <Button x:Name="Button3" Content="Choose" Click="button_Click" Tag="3"/>
         </Border>
 
         <!--    ___
@@ -33,17 +33,17 @@
 
         <Image HorizontalAlignment="Left" Height="65" Margin="45,150,0,0" VerticalAlignment="Top" Width="65" />
         <Border x:Name="Image4" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="67" Margin="44,149,0,0" VerticalAlignment="Top" Width="67">
-            <Button x:Name="Button4" Content="Choose"/>
+            <Button x:Name="Button4" Content="Choose" Click="button_Click" Tag="4"/>
         </Border>
 
         <Image HorizontalAlignment="Left" Height="65" Margin="150,150,0,0" VerticalAlignment="Top" Width="65" />
         <Border x:Name="Image5" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="67" Margin="149,149,0,0" VerticalAlignment="Top" Width="67">
-            <Button x:Name="Button5" Content="Choose"/>
+            <Button x:Name="Button5" Content="Choose" Click="button_Click" Tag="5"/>
         </Border>
 
         <Image HorizontalAlignment="Left" Height="65" Margin="255,150,0,0" VerticalAlignment="Top" Width="65" />
         <Border x:Name="Image6" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="67" Margin="254,149,0,0" VerticalAlignment="Top" Width="67">
-            <Button x:Name="Button6" Content="Choose"/>
+            <Button x:Name="Button6" Content="Choose" Click="button_Click" Tag="6"/>
         </Border>
 
         <!--    ___
@@ -53,17 +53,17 @@
 
         <Image HorizontalAlignment="Left" Height="65" Margin="45,255,0,0" VerticalAlignment="Top" Width="65" />
         <Border x:Name="Image7" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="67" Margin="44,254,0,0" VerticalAlignment="Top" Width="67">
-            <Button x:Name="Button7" Content="Choose"/>
+            <Button x:Name="Button7" Content="Choose" Click="button_Click" Tag="7"/>
         </Border>
 
         <Image HorizontalAlignment="Left" Height="65" Margin="150,255,0,0" VerticalAlignment="Top" Width="65" />
         <Border x:Name="Image8" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="67" Margin="149,254,0,0" VerticalAlignment="Top" Width="67">
-            <Button x:Name="Button8" Content="Choose"/>
+            <Button x:Name="Button8" Content="Choose" Click="button_Click" Tag="8"/>
         </Border>
 
         <Image HorizontalAlignment="Left" Height="65" Margin="255,255,0,0" VerticalAlignment="Top" Width="65" />
         <Border x:Name="Image9" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="67" Margin="254,254,0,0" VerticalAlignment="Top" Width="67">
-            <Button x:Name="Button9" Content="Choose"/>
+            <Button x:Name="Button9" Content="Choose" Click="button_Click" Tag="9"/>
         </Border>
 
     </Grid>
