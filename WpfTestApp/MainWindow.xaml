@@ -66,6 +66,9 @@
             <Button x:Name="Button9" Content="Choose" Click="button_Click" Tag="9"/>
         </Border>
 
+        <Button x:Name="Button10" Content="Reset Game" HorizontalAlignment="Left" Margin="380,225,0,0" VerticalAlignment="Top" Width="75" Click="click1_Button" Height="31"/>
+        <Label x:Name="Label1" Content="Player: Zero" HorizontalAlignment="Left" Margin="371,314,0,0" VerticalAlignment="Top" Width="92"/>
+
     </Grid>
 
 </Window>
